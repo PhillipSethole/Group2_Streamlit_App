@@ -9,3 +9,4 @@ scikit-surprise
 scipy
 implicit
 dill
+emoji 
