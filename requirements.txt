@@ -3,5 +3,7 @@ dill
 pandas
 numpy<2
 scikit-learn
-surprise==1.1.1
+surprise
 emoji
+FROM python:3.8-slim
+
