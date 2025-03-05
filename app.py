@@ -25,9 +25,10 @@ def load_svd_model():
         with open('best_svd_model.pkl', 'rb') as f:
             svd_model = pickle.load(f)
         return svd_model
-    except FileNotFoundError as e:
-        st.error(f"File not found: {e}")
-        st.stop()
+    except FileNotFoundError:
+        st.error("Model file not found. Ensure 'best_svd_model.pkl' exists.")
+    except Exception as e:
+        st.error(f"Error loading model: {str(e)}")
 
 # Streamlit UI
 st.set_page_config(page_title="Anime Recommendation System", page_icon="🎬")
