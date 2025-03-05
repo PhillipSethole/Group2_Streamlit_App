@@ -1,7 +1,7 @@
 streamlit
 dill
 pandas
-numpy
+numpy<2
 scikit-learn
 surprise
 emoji
