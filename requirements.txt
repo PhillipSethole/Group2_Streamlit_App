@@ -2,7 +2,7 @@ streamlit==1.9.0
 dill
 pandas==1.4.0
 numpy<2
-scikit-learn==1.0.2
+scikit-learn>=1.1.0
 surprise
 emoji
 
