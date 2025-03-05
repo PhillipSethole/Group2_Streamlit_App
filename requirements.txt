@@ -1,9 +1,8 @@
-streamlit
+streamlit==1.9.0
 dill
-pandas
+pandas==1.4.0
 numpy<2
-scikit-learn
+scikit-learn==1.0.2
 surprise
 emoji
-FROM python:3.8-slim
 
