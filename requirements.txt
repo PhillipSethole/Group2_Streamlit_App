@@ -3,5 +3,5 @@ dill
 pandas
 numpy<2
 scikit-learn
-surprise
+surprise==1.1.1
 emoji
