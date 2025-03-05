@@ -1,6 +1,5 @@
 streamlit
 dill
-pickle
 pandas
 numpy
 scikit-learn
